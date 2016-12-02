@@ -1,0 +1,44 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiable" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>writeReminder</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/calender.css">
+</head>
+<body>
+  <div class="wrap">
+	 <div class="site_top">
+	    <div class="add_objs">
+	 	    <input type="text" name="objs" maxlength="20" placeholder="输入事项">
+	 	    <button class="add">添加</button>
+	    </div>  
+	 	<div class="show_objs">
+	 	    <p>待完成事项</p>
+	 	    <hr>
+	 		<ul></ul>
+	 	</div>
+	 	<div class="deadline">
+	 		<span>截止日期</span>
+	 		<input type="text" name="deadline">
+           <div class="container"></div>	 		
+	 	</div>
+	 	<div class="createObjs">
+	 		<span class="create"></span>
+	 		<button>创建</button>
+	 	</div>
+	 </div>
+	 <div class="site_bottom">
+	    <div class="scrollBar"></div>
+	    <div class="contentBox"></div>
+	 </div>
+  </div>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+<script type="text/javascript" src="js/calender.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+html,body,ul,li,input, button, textarea,form,a,p{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#a5a5a5;
+}
+.clearfix{zoom:1;}
+.clearfix:after{
+	content: '';
+	display: 'block';
+	height: 0;
+	clear: both;
+	visibility: hidden;;
+}
